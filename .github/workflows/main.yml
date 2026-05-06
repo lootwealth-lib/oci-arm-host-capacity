@@ -28,8 +28,8 @@ jobs:
         run: php index.php
         env:
           OCI_REGION: ${{ secrets.OCI_REGION }}
-          OCI_USER: ${{ secrets.OCI_USER }}
-          OCI_TENANCY: ${{ secrets.OCI_TENANCY }}
+          OCI_USER_ID: ${{ secrets.OCI_USER }}
+          OCI_TENANCY_ID: ${{ secrets.OCI_TENANCY }}
           OCI_KEY_FINGERPRINT: ${{ secrets.OCI_KEY_FINGERPRINT }}
           OCI_PRIVATE_KEY_FILENAME: /tmp/oci_private_key.pem
           OCI_SUBNET_ID: ${{ secrets.OCI_SUBNET_ID }}
